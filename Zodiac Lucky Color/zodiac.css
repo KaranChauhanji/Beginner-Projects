@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    text-align: center;
+}
+h1{
+    margin: 20px 0;
+    color: rgb(86, 84, 84);
+}
+select,button{
+    width: 70%;
+    padding: 8px;
+    outline: none;
+    border: 2px solid rgba(0,0,0,.2);
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+button{
+    width: 12%;
+}
+button:hover{
+    scale: 1.06;
+    background-color: black;
+    color: white;
+}
